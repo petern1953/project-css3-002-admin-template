@@ -128,9 +128,18 @@ body {
 
 .nav__ul {
     /* ---> */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: relative;
+            height: 400px;
+            justify-content: space-between;
+            align-content: space-between;
+            padding-top: 1rem;
+
     list-style-type:none;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     color: rgb(255,255,255);
     /* <--- */
 }
