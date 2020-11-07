@@ -135,12 +135,12 @@ body {
             height: 320px;
             justify-content: space-between;
             align-content: space-between;
-            padding-top: 1rem;
+            padding: 0;
 
     list-style-type:none;
     margin: 0;
     /* padding: 0; */
-    color: rgb(255,255,255);
+    color: rgba(255,255,255,.5);
     /* <--- */
 }
 
@@ -154,6 +154,10 @@ body {
 /* ---> */
 .nav__ul li {
     font-size: .8rem;
+    /* <--- */
+}
+.nav__ul li:nth-child(2) {
+    color: rgb(255,255,255);
     /* <--- */
 }
 
