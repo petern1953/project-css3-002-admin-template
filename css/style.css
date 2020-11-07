@@ -199,6 +199,14 @@ body {
     font-variant: small-caps;
     /* <--- */
 }
+.nav-item-text {
+    position: fixed;
+    left: 45px;
+}
+.nav-arrow {
+    position: fixed;
+    left: 160px;
+}
 
 /* section */
 .content {
