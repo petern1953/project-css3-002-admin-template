@@ -55,8 +55,8 @@ body {
     /* ---> */
     display: inline;
     position: fixed;
-    right: 87px;
-    width: 190px;
+    right: 0px;
+    width: 280px;
     /* <--- */
 }
 
@@ -107,9 +107,17 @@ body {
 
 .header__search .fa-user {
     position: fixed;
-    /* display: inline; */
     right: 32px;
     top: 16px;
+    color: rgba(255,255,255,.5);
+}
+
+.header__search .fa-sort-down {
+    /* display: inline; */
+    position: fixed;
+    right: 16px;
+    top: .8rem;
+    font-size: .8rem;
     color: rgba(255,255,255,.5);
 }
 
