@@ -140,13 +140,33 @@ body {
     display: inline-block;
     position: fixed;
     height: auto;
+    width: 100px;
+    top: 2.8rem;
+    bottom: 0px;
+    padding: 18px;
+    background-color: rgb(33,37,41);
+    /* <--- */
+}
+.nav-item-text {
+    visibility: hidden;
+    }
+
+@media screen and (min-width: 700px) {
+.aside {
+    /* ---> */
+    display: inline-block;
+    position: fixed;
+    height: auto;
     width: 184px;
     top: 2.8rem;
     bottom: 0px;
     padding: 18px;
     background-color: rgb(33,37,41);
-
     /* <--- */
+    }
+.nav-item-text {
+    visibility: visible;
+    }
 }
 
 .main__nav {
@@ -205,10 +225,30 @@ body {
 }
 .nav-arrow {
     position: fixed;
+    left: 75px;
+}
+@media screen and (min-width: 700px) {
+.nav-arrow {
+    position: fixed;
     left: 160px;
+    }
 }
 
+.content {
+    /* ---> */
+    display: block;
+    position: fixed;
+    height: auto;
+    width: auto;
+    top: 2.8rem;
+    left: 100px;
+    right: 0;
+    padding: 0;
+    /* <--- */
+    /* background-color: rgb(233,236,239); */
+    }
 /* section */
+@media screen and (min-width: 700px) {
 .content {
     /* ---> */
     display: block;
@@ -221,6 +261,7 @@ body {
     padding: 0;
     /* <--- */
     /* background-color: rgb(233,236,239); */
+    }
 }
 
 /* ---> */
@@ -283,7 +324,6 @@ body {
                 /* margin: 5px; */
             }
         }
-
 
 .card__top {
     /* ---> */
