@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0px;
+        }
+
+        .admin {
+            display: block;
+            position: fixed;
+            width: auto;
+            /* min-width: 700px;
+            max-width: 800px; */
+            height: auto;
+            left: 0;
+            right: 10px;
+            background-color: yellowgreen;
+            padding: .75rem;
+        }
+
+        .side {
+            display: inline-block;
+            position: fixed;
+            background-color: teal;
+            color: wheat;
+            height: auto;
+            width: 80px;
+            top: 3.1rem;
+            bottom: 0px;
+            padding: 10px;
+        }
+
+        .main {
+            display: block;
+            position: fixed;
+            height: auto;
+            width: auto;
+            top: 50px;
+            left: 100px;
+            right: 10px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 20px;
+            display: inline;
+            padding-right: 50px;
+        }
+
+        .span1 {
+            font-weight: 900;
+            color: white;
+
+        }
+
+        .span2 {
+            position: fixed;
+            font-weight: 900;
+            color: darkgreen;
+            right: 40px;
+        }
+
+        .input1 {
+            position: fixed;
+            font-weight: 900;
+            right: 107px;
+            width: 120px;
+            height: 1.75rem;
+            color: red;
+            border-radius: 6px 0 0 6px;
+            padding-left: 8px;
+        }
+
+        .input2 {
+            position: fixed;
+            font-weight: 900;
+            right: 80px;
+            width: 28px;
+            height: 1.75rem;
+            color: red;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .breadcrumb {
+            margin: 20px 0px;
+            padding: 10px 10px;
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-content: space-between;
+            height: 180px;
+            margin: 0px 0px;
+            color: white;
+        }
+
+        @media screen and (min-width: 700px) {
+            .cards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-content: space-between;
+                height: 40px;
+                margin: 0px 0px;
+                color: white;
+            }
+        }
+
+        .card {
+            /* width: 24%; */
+            display: inherit;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            /* margin: 5px; */
+        }
+
+        @media screen and (min-width: 700px) {
+            .card {
+                width: 24%;
+                display: inherit;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                /* margin: 5px; */
+            }
+        }
+
+        .card--blue {
+            background-color: blue;
+        }
+
+        .card--yellow {
+            background-color: orange;
+        }
+
+        .card--green {
+            background-color: green;
+        }
+
+        .card--red {
+            background-color: red;
+        }
+
+        .top_card {
+            display: flex;
+            height: 60%;
+            border-radius: 5px 5px 0 0;
+            font-size: .8rem;
+            padding: 4px 10px;
+        }
+
+        .bottom_card {
+            display: flex;
+            height: 40%;
+            border-radius: 0 0 5px 5px;
+            font-size: .5rem;
+            padding: 4px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="admin">
+        <h3>Admin page</h3>
+        <span class="span1">o</span>
+        <input type="search" class="input1" placeholder="Search...">
+        <input type="search" class="input2">
+        <span class="span2">x</span>
+    </div>
+    <div class="side">Left side</div>
+    <div class="main">
+        <h2>Dashboard</h2>
+        <div class="breadcrumb">Dashboar</div>
+        <div class="cards">
+            <div class="card">
+                <div class="top_card card--blue">Top card</div>
+                <div class="bottom_card card--blue">Bottom card</div>
+            </div>
+            <div class="card">
+                <div class="top_card card--yellow">Top card</div>
+                <div class="bottom_card card--yellow">Bottom card</div>
+            </div>
+            <div class="card">
+                <div class="top_card card--green">Top card</div>
+                <div class="bottom_card card--green">Bottom card</div>
+            </div>
+            <div class="card">
+                <div class="top_card card--red">Top card</div>
+                <div class="bottom_card card--red">Bottom card</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
