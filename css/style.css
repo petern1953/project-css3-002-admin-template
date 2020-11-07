@@ -36,10 +36,19 @@ body {
 
 .header__title {
     display: inline;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     /* ---> */
     padding-right: 35vw;
+    line-height: 1.4rem;
     /* <--- */
+}
+
+.header__title .fa {
+    font-size: .8rem;
+    color: rgba(255,255,255,.5);
+    position: relative;
+    top: -4px;
+    left: 30px;
 }
 
 .header__search {
@@ -56,7 +65,8 @@ body {
     /* border: 1px solid rgb(255,255,255); */
     position: relative;
     width: 180px;
-    height: 1.75rem;
+    height: 2rem;
+    top: -4px;
     /* <--- */
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -72,10 +82,11 @@ body {
     /* ---> */
     display: inline;
     position: fixed;
-    right: 80px;
-    width: 25px;
-    height: 1.75rem;
-    font-size: 1rem;
+    right: 64px;
+    top: 7px;
+    width: 36px;
+    height: 2rem;
+    font-size: .8rem;
     /* <--- */
 
     background-color: rgb(0,123,255);
@@ -86,6 +97,20 @@ body {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     /* <--- */
+}
+
+.search__btn .fa {
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+
+.header__search .fa-user {
+    position: fixed;
+    /* display: inline; */
+    right: 32px;
+    top: 16px;
+    color: rgba(255,255,255,.5);
 }
 
 .main {
@@ -174,7 +199,7 @@ body {
     position: fixed;
     height: auto;
     width: auto;
-    top: 2.3rem;
+    top: 2.8rem;
     left: 184px;
     right: 0;
     padding: 0;
