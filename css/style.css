@@ -205,7 +205,7 @@ body {
                 justify-content: space-between;
                 align-content: space-between;
                 height: 40px;
-                margin: 0px 0px;
+                margin: 0 .7rem;
                 color: white;
             }
         }
@@ -215,16 +215,17 @@ body {
             display: inherit;
             flex-direction: column;
             flex-wrap: nowrap;
-            margin: 0 1rem;
+            margin: 0 1.2rem;
             border-radius: .25rem;
             background-color: rgb(0,0,0);
-}
+        }
         @media screen and (min-width: 700px) {
             .main__card {
                 width: 24%;
                 display: inherit;
                 flex-direction: column;
                 flex-wrap: nowrap;
+                margin: 0 0.5rem;
                 /* margin: 5px; */
             }
         }
