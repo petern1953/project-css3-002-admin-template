@@ -171,15 +171,16 @@ body {
 /* ---> */
 .content h1 {
     font-size: 1.8rem;
+    font-weight: bold;
     line-height: 0;
-    padding: 1rem 0 0 1.5rem;
+    padding: 1rem 0 0 1.2rem;
 }
 /* <--- */
 
 .main__breadcrumb {
     /* ---> */
     font-size: 1rem;
-    margin: 0 1.5rem 1rem;
+    margin: 0 1.2rem 1rem;
     /* <--- */
     background-color: rgb(233,236,239);
     border-radius: .25rem;
