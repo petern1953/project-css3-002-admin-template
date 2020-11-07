@@ -252,10 +252,10 @@ body {
     height: 40%;
     border-radius: 0 0 5px 5px;
     background-blend-mode: color-burn;
-    font-size: .8rem;
+    font-size: .6rem;
     color: rgb(255,255,255);
-    padding: .8rem;
-    margin-top: 1px;
+    padding: .5rem 1rem;
+    /* margin-top: 1px; */
     /* <--- */
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
