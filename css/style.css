@@ -157,7 +157,6 @@ body {
     bottom: 0px;
     padding: 0;
     /* <--- */
-    
 }
 
 .aside {
@@ -268,7 +267,6 @@ body {
     right: 0;
     padding: 0;
     /* <--- */
-    /* background-color: rgb(233,236,239); */
     }
 /* section */
 @media screen and (min-width: 700px) {
@@ -283,7 +281,6 @@ body {
     right: 0;
     padding: 0;
     /* <--- */
-    /* background-color: rgb(233,236,239); */
     }
 }
 
@@ -301,7 +298,6 @@ body {
     font-size: 1.2rem;
     margin: 0 1.6rem 1.35rem;
     color: rgba(0, 0, 0, .6);
-    /* color: red; */
     /* <--- */
     background-color: rgb(233,236,239);
     border-radius: .25rem;
